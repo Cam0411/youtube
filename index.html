@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtbue</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="reponsive.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header__logo">
+            
+            <i class="menu fas fa-bars"></i>
+            <img src="asset/logo.png" alt="" srcset="">
+        </div>
+        <div class="header__search">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-10 m-7 c-0">
+                      <div class="search__form">
+                         <div class="search__form-in">
+                          <input type="text" class="search" placeholder="Tìm kiếm">
+                          <i class="far fa-keyboard"></i>
+                         </div>
+                         <i class="search__btn fas fa-search"></i>
+                         <i class="micro fas fa-microphone"></i>
+                      </div>
+                    </div>
+                    <div class="col l-2 m-5 c-12">
+                      <ul class="header__list-icon">
+                          <li><i class="fas fa-video"></i></li>
+                          <li class="hide__2"><i class=" fas fa-ellipsis-v"></i></li>
+                          <li><i class="far fa-bell"></i></li>
+                          <li class="hide"> <i class="hide fas fa-search"></i></li>
+                          <li><img src="asset/unnamed.jpg" alt="" srcset=""></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><p>Tất cả</p></div>
+              <div class="swiper-slide"><p>Danh sách</p></div>
+              <div class="swiper-slide"><p>Âm nhạc</p></div>
+              <div class="swiper-slide"><p>Hoạt hình</p></div>
+              <div class="swiper-slide"><p>Trực tiếp</p></div>
+              <div class="swiper-slide"><p>Nấu ăn</p></div>
+              <div class="swiper-slide"><p>Minecraft</p></div>
+              <div class="swiper-slide"><p>Trò chơi</p></div>
+              <div class="swiper-slide"><p>Rap</p></div>
+              <div class="swiper-slide"><p>Lửa chùa</p></div>
+              <div class="swiper-slide"><p>Genshin</p></div>
+              <div class="swiper-slide"><p>Nấu ăn</p></div>
+              <div class="swiper-slide"><p>Pubg</p></div>
+              <div class="swiper-slide"><p>Đề xuất</p></div>
+            </div>
+       
+          </div>
+    </div>
+  <div class="content__youtube">
+      <div class="content__left">
+        <div class="content__list-style">
+          <div class="grid">
+            <div class="row">
+              <div class="col l-2">
+                    <div class="content__list">
+                      <p><i class="fas fa-home"></i></p>
+                    </div>
+              </div>
+              <div class="col l-10">
+               <div class="content__list">
+                 <p class="sub__list">Trang chủ</p>
+               </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="content__right">
+        <div class="content__img">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-3">
+                <div class="content__right-list">
+                    <h1>hi</h1>
+                </div>
+              </div>
+              <div class="col l-3">
+               <div class="content__right-list">
+                 <h1>hi</h1>
+               </div>
+             </div>
+             <div class="col l-3">
+               <div class="content__right-list">
+                 <h1>hi</h1>
+               </div>
+             </div>
+             <div class="col l-3">
+               <div class="content__right-list">
+                 <h1>hi</h1>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 5,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 6,
+          spaceBetween: 20,
+        },
+        "@1.50": {
+          slidesPerView: 10,
+          spaceBetween: 20,
+        },
+      },
+    });
+  </script>
+
+  <script>
+     var menu = document.querySelector(".menu")
+    var changeSize = document.querySelector(".content__left")
+    var hiddentext = document.querySelector(".sub__list")
+    var changeSize2 = document.querySelector(".content__right")
+    var changeBackground = document.querySelector(".content__list-style")
+    var changePosition = document.querySelector(".swiper")
+    function closeTab(){
+      changeSize.classList.toggle("close")
+
+      changeSize2.classList.toggle("open")
+    }
+    function closeTab2(){
+     
+      changeBackground.classList.toggle("hide")
+      hiddentext.classList.toggle("close__2")
+    }
+    function closeTab3(){
+     changePosition.classList.toggle("close__3")
+     menu.classList.toggle("color")
+   }
+    menu.addEventListener("click",closeTab)
+    menu.addEventListener("click",closeTab2)
+    menu.addEventListener("click",closeTab3)
+  </script>
+</body>
+</html>
