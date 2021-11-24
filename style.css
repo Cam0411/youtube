@@ -257,7 +257,10 @@
       border: none;
       margin-top: 0px;
   }
-  
+  .content__youtube 
+  {
+      height: 2000px;
+  }
 
   .content__list-4 i
   {
@@ -386,7 +389,7 @@
 {
     position: fixed;
     bottom: 0;
-    height: 56px;
+    height: 66px;
     background: #202020;
     left: 0;
     right: 0;
@@ -397,6 +400,10 @@
     border-top: 2px solid #333;
     display: none;
 }
+.list__icon-nav
+{
+    margin-top: -8px;
+}
 .list__icon-nav li 
 {
     display: inline-block;
@@ -406,6 +413,7 @@
     margin-right: 40px;
     text-align: center;
     cursor: pointer;
+  
 }
 .list__icon-nav li.circle 
 {
