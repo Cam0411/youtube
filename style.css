@@ -393,7 +393,7 @@
     z-index: 9999;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     border-top: 2px solid #333;
     display: none;
 }
