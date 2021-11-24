@@ -70,42 +70,117 @@
             <div class="row">
               <div class="col l-2">
                     <div class="content__list">
-                      <p><i class="fas fa-home"></i></p>
+                      <p><i class="fas fa-home"></i> <br> <p class="sub__text">Trang chủ</p></p>
                     </div>
               </div>
               <div class="col l-10">
-               <div class="content__list">
+               <div class="content__list ">
                  <p class="sub__list">Trang chủ</p>
                </div>
               </div>
-            
+              <div class="col l-2">
+                <div class="content__list content__list-3">
+                  <p><i class="fab fa-wpexplorer"></i> <br> <p class="sub__text">Khám phá</p> </p>
+                </div>
+          </div>
+          <div class="col l-10">
+           <div class="content__list content__list-3">
+             <p class="sub__list sub__list-2">Khám phá</p>
+           </div>
+          </div>
+          <div class="col l-2">
+            <div class="content__list content__list-3">
+              <p><i class="fas fa-poll-h"></i> <br> <p class="sub__text">Đăng ký</p></p>
+            </div>
+      </div>
+      <div class="col l-10">
+       <div class="content__list content__list-3">
+         <p class="sub__list sub__list-3">Kênh đăng ký</p>
+       </div>
+      </div>
+     <div class="content__list-style-2">
+       <div class="grid">
+         <div class="row">
+          <div class="col l-2">
+            <div class="content__list content__list-4">
+              <p><i class=" fas fa-photo-video"></i> <br> <p class="sub__text">Thư viện</p></p>
+            </div>
+      </div>
+      <div class="col l-10">
+       <div class="content__list">
+         <p class="sub__list sub__list-4">Thư viện</p>
+       </div>
+      </div>
+      <div class="col l-2">
+        <div class="content__list content__list-5">
+          <p><i class="fas fa-history sub__list-5"></i> </p>
+        </div>
+  </div>
+  <div class="col l-10 changeheight">
+   <div class="content__list content__list-5">
+     <p class="sub__list sub__list-5">Video đã xem</p>
+   </div>
+  </div>
+  <div class="col l-2">
+    <div class="content__list">
+      <p><i class="fas fa-file-video sub__list-5"></i> </p>
+    </div>
+</div>
+<div class="col l-10">
+<div class="content__list">
+ <p class="sub__list sub__list-5">video của bạn</p>
+</div>
+</div>
+<div class="col l-2">
+  <div class="content__list ">
+    <p><i class="far fa-thumbs-up sub__list-5"></i> </p>
+  </div>
+</div>
+<div class="col l-10">
+<div class="content__list">
+<p class="sub__list   sub__list-5 ">Video đã thích</p>
+</div>
+</div>
+<div class="col l-2">
+  <div class="content__list ">
+    <p><i class="far fa-clock  sub__list-5"></i> </p>
+  </div>
+</div>
+<div class="col l-10">
+<div class="content__list">
+<p class="sub__list  sub__list-5">Xem sau</p>
+</div>
+</div>
+         </div>
+       </div>
+     </div>
             </div>
           </div>
         </div>
-       
+        
       </div>
       <div class="content__right">
         <div class="content__img">
-          <div class="grid">
+          <div class="grid ">
             <div class="row">
-              <div class="col l-3">
+              <div class="col l-3 m-4 c-12">
                 <div class="content__right-list">
-                    <h1>hi</h1>
+                  
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-4 c-12">
                <div class="content__right-list">
-                 <h1>hi</h1>
+               
                </div>
              </div>
-             <div class="col l-3">
+             <div class="col l-3 m-4 c-12">
                <div class="content__right-list">
-                 <h1>hi</h1>
+               
                </div>
              </div>
-             <div class="col l-3">
+             <div class="col l-3 m-4 c-12">
                <div class="content__right-list">
-                 <h1>hi</h1>
+               
                </div>
              </div>
             </div>
@@ -115,6 +190,16 @@
   </div>
 
 
+</div>
+<div class="menu__tablet">
+  <ul class="list__icon-nav">
+    <li class="change__position"><i class="fas fa-home"></i> <br> <p>Trang chủ</p></li>
+    <li class="change__position"><i class="fab fa-wpexplorer"></i> <br> <p>Khám phá</p></li>
+    
+    <li class="change__position"><i class="fas fa-poll-h"></i><br> <p>Kênh đăng ký</p></li>
+    <li class="change__position"><i class="fas fa-photo-video"></i><br> <p>Thư viện</p></li>
+  </ul>
+</div>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
@@ -151,6 +236,9 @@
      var menu = document.querySelector(".menu")
     var changeSize = document.querySelector(".content__left")
     var hiddentext = document.querySelector(".sub__list")
+    var hiddentext2 = document.querySelector(".sub__list-2")
+    var hiddentext3 = document.querySelector(".sub__list-3")
+    var hiddentext4 = document.querySelector(".sub__list-4")
     var changeSize2 = document.querySelector(".content__right")
     var changeBackground = document.querySelector(".content__list-style")
     var changePosition = document.querySelector(".swiper")
@@ -168,9 +256,61 @@
      changePosition.classList.toggle("close__3")
      menu.classList.toggle("color")
    }
+   function closeTab4(){
+    hiddentext2.classList.toggle("close__4")
+    hiddentext3.classList.toggle("close__5")
+   }
+   function closeTab5(){
+    hiddentext4.classList.toggle("close__6")
+  
+   }
     menu.addEventListener("click",closeTab)
     menu.addEventListener("click",closeTab2)
     menu.addEventListener("click",closeTab3)
+    menu.addEventListener("click",closeTab4)
+    menu.addEventListener("click",closeTab5)
+  </script>
+  <script>
+    var menu = document.querySelector(".menu")
+  var modal = document.querySelector(".modal")
+  var closeModal = document.querySelector(".modal__content")
+  function openModal(){
+    modal.classList.add("hidden")
+  }
+  function closeModal2(){
+    modal.classList.remove("hidden")
+  }
+  menu.addEventListener("click",openModal)
+  closeModal.addEventListener("click",closeModal2)
+  </script>
+  <script>
+    var changeValue = document.querySelector(".content__list-style-2")
+    var menu = document.querySelector(".menu")
+    var changeIcon = document.querySelector(" .content__list-style-2  i")
+    function changeValue2(){
+      changeValue.classList.toggle("changesize3")
+      changeIcon.classList.toggle("change__margin")
+    }
+    menu.addEventListener("click",changeValue2)
+  </script>
+  <script>
+    var menu = document.querySelector(".menu")
+    var onTexts = document.querySelectorAll("  .content__list .sub__text")
+    var changemargin = document.querySelector(".content__list-4 i")
+    var hiddens = document.querySelectorAll(".sub__list-5")
+    function openText(){
+      for (const onText of onTexts){
+        onText.classList.toggle("addtext")
+      }
+      changemargin.classList.toggle("changemargin2")
+    }
+    function hiddenText(){
+     for (const hidden of hiddens){
+       hidden.classList.toggle("hidden2")
+     }
+    }
+    menu.addEventListener("click",openText)
+    menu.addEventListener("click",hiddenText)
   </script>
 </body>
 </html>

@@ -48,8 +48,28 @@
 {
     margin-left: 0px !important;
 }
+.swiper 
+{
+    margin-top: 0;
 }
-@media (max-width:350px){
+.list__icon-nav li 
+{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.menu__tablet 
+{
+    display: flex;
+}
+}
+@media (max-width:450px){
+  
+
     .header__logo img 
     {
         width: 80px;
@@ -77,8 +97,32 @@
     .swiper {
         height: 56px;
         margin-left: 0px !important;
-        margin-top: 10px;
+  
     }
+    .list__icon-nav li 
+{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+.list__icon-nav li p 
+{
+    font-size: 8px;
+    margin-top: 5px;
+}
+.list__icon-nav li.circle 
+{
+    border: 2px solid #fff;
+    border-radius: 50%;
+     padding:4px 6px;
+   margin-bottom: 10px;
+    font-size: 14px;
+}
 }
 @media (min-width:734px) and (max-width:1024px){
     .content__left 
@@ -135,6 +179,14 @@
 {
     margin-left: 0px !important;
 }
+.swiper 
+{
+    margin-top: 0;
+}
+.menu__tablet 
+{
+    display: flex;
+}
 }
 @media (min-width:1025px) and (max-width:1210px) {
     .content__left 
@@ -189,6 +241,18 @@
   {
       margin-left: 32px;
   }
+  .swiper 
+  {
+      margin-top: 0;
+  }
+  .menu__tablet 
+  {
+      display: flex;
+  }
+  .content__list-style-2 .sub__list-4
+  {
+      display: none;
+  }
 }
 
 @media (min-width:1211px){
@@ -196,7 +260,7 @@
     {
         width: 100%;
     }
-
+  
 }
 @media (min-width:1210px) and (max-width:1240px) {
     .content__left
@@ -229,8 +293,28 @@
 {
     margin-left: 60px !important;
 }
-.menu.color{
-    color: red;
+
+.modal.hidden 
+{
+    display: flex;
+}
+.sub__list-5 
+{
+    display: none;
+}
+.content__list .sub__text
+{
+    display: block;
+    margin-bottom: 20px;
+}
+.content__list-style-2
+{
+    border: none;
+    margin-top: 0px;
+}
+.content__list-4 i
+{
+    margin-top: -2px;
 }
 }
 @media (min-width:1209px) and (max-width:1210.5px) {
