@@ -370,10 +370,7 @@
   {
       display: none;
   }
-  .content__right-list 
-  {
-      margin-bottom: 80px;
-  }
+  
   .content__right-list img
 {
    width: 100%;
@@ -423,6 +420,7 @@
 .content__right-list
 {
     margin-bottom: 30px;
+    margin-right: 2px;
 }
 }
 
