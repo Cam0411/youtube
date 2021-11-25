@@ -95,7 +95,7 @@
     font-size: 14px;
     margin-bottom: 0px;
     margin-left: 4px;
-
+    line-height: 23px;
 }
 .content__img
 {
@@ -106,7 +106,7 @@
     color: #AAAA;
     font-size: 14px;
     margin-left: 4px;
-    line-height: 25px;
+    line-height: 23px;
     margin-bottom: 10px;
 }
 .content__right-list-txt img
@@ -275,7 +275,7 @@
     font-size: 14px;
     margin-bottom: 0px;
     margin-left: 5px;
- 
+   line-height: 23px;
 }
 .content__img
 {
@@ -286,7 +286,7 @@
     color: #AAAA;
     font-size: 14px;
     margin-left: 5px;
-    line-height: 25px;
+    line-height: 23px;
     margin-bottom: 10px;
 
 }
@@ -392,7 +392,7 @@
     font-size: 14px;
     margin-bottom: 0px;
     margin-left: 5px;
- 
+   line-height: 23px;
 }
 .content__img
 {
@@ -403,7 +403,7 @@
     color: #AAAA;
     font-size: 14px;
     margin-left: 5px;
-    line-height: 25px;
+    line-height: 23px;
     margin-bottom: 10px;
 
 }
