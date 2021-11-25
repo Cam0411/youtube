@@ -300,6 +300,10 @@
 {
     margin-left: 4px;
 }
+.content__right-list
+{
+    margin-bottom: 30px;
+}
 }
 @media (min-width:1025px) and (max-width:1210px) {
     .content__left 
@@ -416,7 +420,10 @@
 {
     margin-left: 4px;
 }
-
+.content__right-list
+{
+    margin-bottom: 30px;
+}
 }
 
 @media (min-width:1211px){
