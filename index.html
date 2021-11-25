@@ -152,7 +152,7 @@
 <p class="sub__list  sub__list-5">Xem sau</p>
 </div>
 </div>
-         </div>
+</div>
        </div>
      </div>
             </div>
@@ -166,24 +166,102 @@
             <div class="row">
               <div class="col l-3 m-4 c-12">
                 <div class="content__right-list">
-                  
+                 <img src="asset/hqdefault.jpg" alt="" srcset="">
+                 <div class="content__right-list-txt">
+                   <img src="asset/channels4_profile.jpg" alt="" srcset="">
+                   <div class="right__list-all-txt"> 
+                   <p class="list__txt-heading">[Lyris + Vietsub] Toxic Friend </p>
+                   <p class="list__txt-about">Chill music <br> 1 tr lượt xem . 1 tháng trước</p>
+                   </div>
+                  </div>
                 </div>
               </div>
               <div class="col l-3 m-4 c-12">
                <div class="content__right-list">
-               
+                <img src="asset/acrane.jpg" alt="" srcset="">
+                <div class="content__right-list-txt">
+                  <img src="asset/lol.jpg" alt="" srcset="">
+                  <div class="right__list-all-txt"> 
+                  <p class="list__txt-heading">Imagine Dragon & JiD-Enemy</p>
+                  <p class="list__txt-about">Lengue Of Legend <br> 30 tr lượt xem . 1 tháng trước</p>
+                  </div>
+                 </div>
                </div>
              </div>
              <div class="col l-3 m-4 c-12">
                <div class="content__right-list">
-               
+                <img src="asset/alan.png" alt="" srcset="">
+                <div class="content__right-list-txt">
+                  <img src="asset/alan2.jpg" alt="" srcset="">
+                  <div class="right__list-all-txt"> 
+                  <p class="list__txt-heading">
+                    Aviation Movie - Level 1 </p>
+                  <p class="list__txt-about">Alan Walker <br> 2.6 tr lượt xem . 5 tháng trước</p>
+                  </div>
+                 </div>
                </div>
              </div>
              <div class="col l-3 m-4 c-12">
                <div class="content__right-list">
-               
+                <img src="asset/evon.png" alt="" srcset="">
+                <div class="content__right-list-txt">
+                  <img src="asset/evon2.jpg" alt="" srcset="">
+                  <div class="right__list-all-txt"> 
+                  <p class="list__txt-heading">[Chương 1] bài 3:Cấu trúc html đơn giản </p>
+                  <p class="list__txt-about">Evondev <br> 5.9 N lượt xem . 3 tháng trước</p>
+                  </div>
+                 </div>
                </div>
              </div>
+             <div class="col l-3 m-4 c-12">
+              <div class="content__right-list">
+               <img src="asset/tranform.png" alt="" srcset="">
+               <div class="content__right-list-txt">
+                 <img src="asset/phephin.jpg" alt="" srcset="">
+                 <div class="right__list-all-txt"> 
+                 <p class="list__txt-heading"> Chuyện xãy ra với Transformers... </p>
+                 <p class="list__txt-about">Phê phim <br> 153 N lượt xem . 15 giờ trước</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-12">
+             <div class="content__right-list">
+              <img src="asset/ricu2.png" alt="" srcset="">
+              <div class="content__right-list-txt">
+                <img src="asset/ricu.jpg" alt="" srcset="">
+                <div class="right__list-all-txt"> 
+                <p class="list__txt-heading">We dropped 100,000 ping...</p>
+                <p class="list__txt-about">How Ridiculous <br> 2.5 tr lượt xem . 2 tháng trước</p>
+                </div>
+               </div>
+             </div>
+           </div>
+           <div class="col l-3 m-4 c-12">
+             <div class="content__right-list">
+              <img src="asset/gearvn.png" alt="" srcset="">
+              <div class="content__right-list-txt">
+                <img src="asset/gearvn2.jpg" alt="" srcset="">
+                <div class="right__list-all-txt"> 
+                <p class="list__txt-heading">
+                Dùng nguồn càng cao sẽ tốn tiền điện? </p>
+                <p class="list__txt-about">GEARVN <br> 60 N lượt xem . 2 Năm trước</p>
+                </div>
+               </div>
+             </div>
+           </div>
+           <div class="col l-3 m-4 c-12">
+             <div class="content__right-list">
+              <img src="asset/kenjumboy.png" alt="" srcset="">
+              <div class="content__right-list-txt">
+                <img src="asset/kenjum.jpg" alt="" srcset="">
+                <div class="right__list-all-txt"> 
+                <p class="list__txt-heading">How to khen đúng cách </p>
+                <p class="list__txt-about">Kenjumboy <br> 120 N lượt xem . 16 giờ trước</p>
+                </div>
+               </div>
+             </div>
+           </div>
             </div>
           </div>
         </div>
@@ -312,6 +390,18 @@
     }
     menu.addEventListener("click",openText)
     menu.addEventListener("click",hiddenText)
+  </script>
+  <script>
+    menu = document.querySelector(".menu")
+    changeimg = document.querySelector(".content__img")
+    changeimg2s = document.querySelectorAll(".content__right-list img")
+    function changeValue4(){
+      changeimg.classList.toggle("changepad")
+          for (const changeimg2 of changeimg2s){
+            changeimg2.classList.toggle("change__margin-img")
+          }
+    }
+    menu.addEventListener("click",changeValue4)
   </script>
 </body>
 </html>
