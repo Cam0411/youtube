@@ -19,7 +19,7 @@
 
 .content__youtube
 {
-    height: 1000px;
+    height: 300px;
    display: flex;
    margin-top: 56px;
 }
@@ -37,7 +37,7 @@
 {
     width: 90%;
     background: #181818;
-    height: 100%;
+    height: 1380px;
     margin-left: 256px;
     overflow: hidden;
 }
@@ -260,7 +260,7 @@
   }
   .content__youtube 
   {
-      height: 2000px;
+      height: 1380px;
   }
 
   .content__list-4 i
@@ -350,10 +350,7 @@
 {
     display: none;
 }
-.footer 
-{
-    height: 2000px;
-}
+
 .content__right-list 
 {
     background: chocolate;
@@ -474,6 +471,7 @@
     margin-bottom: 0px;
     line-height: 25px;
     margin-left: 7px;
+
 }
 .list__txt-about 
 {
@@ -489,6 +487,7 @@
   height: 40px;
   border-radius: 50%;
 }
+
 .right__list-all-txt
 {
     margin-left: 4px;

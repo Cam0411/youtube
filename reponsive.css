@@ -5,7 +5,7 @@
     }
     .content__youtube
     {
-        height: 6000px;
+        height: 8600px;
     }
     .content__right 
     {
@@ -118,7 +118,7 @@
 }
 @media (max-width:450px){
   
-
+ 
     .header__logo img 
     {
         width: 80px;
@@ -186,6 +186,7 @@
 {
     margin-left: 4px;
 }
+
 }
 @media (min-width:734px) and (max-width:1024px){
     .content__left 
@@ -304,6 +305,10 @@
 {
     margin-bottom: 30px;
 }
+.content__youtube 
+{
+    height: 1900px;
+}
 }
 @media (min-width:1025px) and (max-width:1210px) {
     .content__left 
@@ -421,6 +426,10 @@
 {
     margin-bottom: 30px;
     margin-right: 2px;
+}
+.content__youtube 
+{
+    height: 2000px;
 }
 }
 
@@ -601,4 +610,10 @@
 {
   margin-left: 0px !important;
 }
+}
+@media (min-width:1600px){
+    .content__youtube 
+    {
+        height: 1800px;
+    }
 }
