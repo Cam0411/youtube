@@ -30,8 +30,9 @@
      background: #202020;
      padding: 0px 16px;
      position: fixed;
- 
+  
 }
+
 .content__right 
 {
     width: 90%;
@@ -302,6 +303,11 @@
   .content__left.close 
   {
       width: 60px;
+      overflow: hidden;
+  }
+  .content__left.close:hover 
+  {
+      overflow: hidden;
   }
   .sub__list.close__2 
   {
@@ -389,7 +395,7 @@
 {
     position: fixed;
     bottom: 0;
-    height: 76px;
+    height: 75px;
     background: #202020;
     left: 0;
     right: 0;
@@ -498,4 +504,21 @@
 .content__right-list
 {
     margin-bottom: 40px;
+}
+.swiper
+{
+    position: relative;
+}
+.swiper i 
+{
+    position: absolute;
+    color: #fff;
+    top: 0%;
+    left: 0%;
+    font-size: 30px;
+    display: none;
+}
+.swiper i.open_icon
+{
+ display: block;
 }
