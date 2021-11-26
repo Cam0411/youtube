@@ -307,7 +307,7 @@
 }
 .content__youtube 
 {
-    height: 1900px;
+    height: 1950px;
 }
 }
 @media (min-width:1025px) and (max-width:1210px) {
@@ -429,10 +429,17 @@
 }
 .content__youtube 
 {
-    height: 2000px;
+    height:1360px;
 }
 }
-
+@media (min-width:1025px) and (max-width:1112px) {
+ 
+.content__youtube 
+{
+    height: 2030px;
+}
+}
+    
 @media (min-width:1211px){
     .content__right 
     {
