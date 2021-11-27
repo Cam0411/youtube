@@ -30,9 +30,13 @@
      background: #202020;
      padding: 0px 16px;
      position: fixed;
-  
+     overflow: scroll;
+     overflow: hidden;
 }
-
+.content__left:hover 
+{
+    overflow: scroll;
+}
 .content__right 
 {
     width: 90%;
@@ -139,6 +143,7 @@
     display: flex;
      justify-content: flex-end;
      margin-right: -12px;
+     cursor: pointer;
 }
 .header__list-icon img 
 {
@@ -150,7 +155,7 @@
 .header__list-icon li 
 {
     display: inline-block;
-    color: #fff;
+    color: #fcfcfc;
     list-style: none;
     margin-right: 25px;
     font-size: 17px;
@@ -520,4 +525,192 @@
 .swiper i.open_icon
 {
  display: block;
+}
+.content__list-6
+{
+    margin-left: 15px; 
+    margin-bottom: 20px;
+
+}
+.content__list .sub__list-6
+{
+    font-size: 16px;
+}
+.sub__list-6 
+{
+    margin-bottom: 30px;
+    margin-top: 20px !important;
+    color: #aaaaaa !important;
+    margin-left: 5px;
+}
+.content__list img 
+{
+    width: 24px;
+    border-radius: 50%;
+    height: 24px;
+    margin-left: 10px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.sub__list-7
+{
+    margin-bottom: 20px;
+}
+.content__list-style-2 .sub__list-7 
+{
+    margin-left: 13px;
+}
+.swiper .swiper-slide-2 
+{
+   background: #fff;
+}
+.swiper .swiper-slide-2 p
+{
+   background: #fff;
+   color: #000;
+}
+.camera__content 
+{
+    position: fixed;
+    top: 6%;
+    right: 2%;
+    background: #202020;
+    height: 90px;
+    width: 160px;
+    z-index: 9999999;
+    border:0.2px solid #343434;
+    display: none;
+}
+.camera__content 
+{ 
+padding: 20px;
+}
+.camera__content i 
+{
+    color: #a6a6a6;
+}
+.camera__list 
+{
+   color: #fff;
+   margin-bottom: 20px;
+   margin-left: 5px;
+
+}
+.camera__list p 
+{
+    font-size: 13px;
+}
+.camera__list .camera_list-info 
+{
+    margin-left: 10px;
+}
+.camera__list .wifi 
+{
+    margin-left: -3px;
+}
+.camera__content.open3 
+{
+    display: block;
+}
+.app__content 
+{
+    position: fixed;
+    top: 6%;
+    right: 8%;
+    background: #202020;
+    height: 270px;
+    width: 300px;
+    z-index: 9999999;
+    border:0.2px solid #343434;
+    padding: 10px 20px;
+    color: #fff;
+    display: none;
+}
+.app__content.open5 
+{
+    display: block;
+}
+.app__content img 
+{
+    width: 24px;
+    height: 20px;
+    margin-top: 15px;
+}
+.app__content .camera_app-info
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.app__section
+{
+    border-bottom: 0.5px solid #313131;
+    width: 100%;
+
+}
+.app__section-2
+{
+    border-bottom: none;
+}
+.nofiti__content
+{
+    position: fixed;
+    top: 6%;
+    right: 0%;
+    background: #202020;
+    height: 670px;
+    width: 500px;
+    z-index: 9999999;
+    border:0.2px solid #343434;
+    padding: 10px 0px;
+    color: #fff;
+    overflow: scroll;
+    overflow-x: hidden;
+    display:none ;
+}
+.nofiti__about 
+{
+    padding: 10px 30px;
+     
+}
+.nofi__list-time 
+{
+    color: #a0a0a0;
+    font-size: 14px;
+}
+.notifi__setting 
+{
+    text-align: right;
+    padding: 10px 30px;
+    margin-bottom: 8px;
+}
+.nofiti__heading
+{
+    border-bottom: 2px solid #343434;
+}
+.nofiti__list-content 
+{
+    margin-top: 20px;
+}
+.nofiti__list-content .nofiti__logo
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.nofiti__list-content .nofiti__img
+{
+    width: 86px;
+    height: 64px;
+
+}
+.nofi__list-about 
+{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.nofiti__content.open5 
+{
+    display: block;
 }

@@ -1,12 +1,12 @@
 ::-webkit-scrollbar {
-    width: 12px;
-    background: #181818;
+    width: 8px;
+    background: #202020;
 
 }
  
 ::-webkit-scrollbar-track {
     border-radius: 10px;
-    background: #181818;
+    background: #202020;
 }
  
 ::-webkit-scrollbar-thumb {
@@ -14,4 +14,8 @@
     background: #aaaaaa;
     height: 40px !important ;
     width: 8px;
+}
+.nofiti__content::-webkit-scrollbar-thumb
+{
+    background: #202020;
 }
