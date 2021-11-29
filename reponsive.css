@@ -474,7 +474,7 @@
    position: absolute;
     color: #fff;
     top: 0%;
-    right: 0%;
+    right: 1.5%;
     background: #000;
     padding: 5px 15px
 }
@@ -565,7 +565,10 @@
   height: 40px;
   border-radius: 50%;
 }
-
+.right__list-icon
+{
+    right:-5px;
+}
 }
 @media (min-width:1209px) and (max-width:1210.5px) {
     .content__right.open 
