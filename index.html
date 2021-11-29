@@ -318,8 +318,11 @@
                    <div class="right__list-all-txt"> 
                    <p class="list__txt-heading">[Lyris + Vietsub] Toxic Friend </p>
                    <p class="list__txt-about">Chill music <br> 1 tr lượt xem . 1 tháng trước</p>
-                   </div>
+                 
                   </div>
+                    
+                  </div>
+                  <i class="right__list-icon fas fa-ellipsis-v"></i>
                 </div>
               </div>
               <div class="col l-3 m-4 c-12">
@@ -332,6 +335,7 @@
                   <p class="list__txt-about">Lengue Of Legend <br> 30 tr lượt xem . 1 tháng trước</p>
                   </div>
                  </div>
+                 <i class="right__list-icon fas fa-ellipsis-v"></i>
                </div>
              </div>
              <div class="col l-3 m-4 c-12">
@@ -345,6 +349,7 @@
                   <p class="list__txt-about">Alan Walker <br> 2.6 tr lượt xem . 5 tháng trước</p>
                   </div>
                  </div>
+                 <i class="right__list-icon fas fa-ellipsis-v"></i>
                </div>
              </div>
              <div class="col l-3 m-4 c-12">
@@ -357,6 +362,7 @@
                   <p class="list__txt-about">Evondev <br> 5.9 N lượt xem . 3 tháng trước</p>
                   </div>
                  </div>
+                 <i class="right__list-icon fas fa-ellipsis-v"></i>
                </div>
              </div>
              <div class="col l-3 m-4 c-12">
@@ -369,6 +375,7 @@
                  <p class="list__txt-about">Phê phim <br> 153 N lượt xem . 15 giờ trước</p>
                  </div>
                 </div>
+                <i class="right__list-icon fas fa-ellipsis-v"></i>
               </div>
             </div>
             <div class="col l-3 m-4 c-12">
@@ -381,6 +388,7 @@
                 <p class="list__txt-about">How Ridiculous <br> 2.5 tr lượt xem . 2 tháng trước</p>
                 </div>
                </div>
+               <i class="right__list-icon fas fa-ellipsis-v"></i>
              </div>
            </div>
            <div class="col l-3 m-4 c-12">
@@ -394,6 +402,7 @@
                 <p class="list__txt-about">GEARVN <br> 60 N lượt xem . 2 Năm trước</p>
                 </div>
                </div>
+               <i class="right__list-icon fas fa-ellipsis-v"></i>
              </div>
            </div>
            <div class="col l-3 m-4 c-12">
@@ -406,6 +415,7 @@
                 <p class="list__txt-about">Kenjumboy <br> 120 N lượt xem . 16 giờ trước</p>
                 </div>
                </div>
+               <i class="right__list-icon fas fa-ellipsis-v"></i>
              </div>
            </div>
            <div class="col l-3 m-4 c-12">
@@ -418,6 +428,7 @@
                <p class="list__txt-about">Kevin Powell <br> 80 N lượt xem . 9 ngày trước</p>
                </div>
               </div>
+              <i class="right__list-icon fas fa-ellipsis-v"></i>
             </div>
           </div>
           <div class="col l-3 m-4 c-12">
@@ -430,6 +441,7 @@
               <p class="list__txt-about">Muse Việt Nam<br> 18 N lượt xem . 16 giờ trước</p>
               </div>
              </div>
+             <i class="right__list-icon fas fa-ellipsis-v"></i>
            </div>
          </div>
          <div class="col l-3 m-4 c-12">
@@ -443,6 +455,7 @@
               <p class="list__txt-about">Alan Walker <br> 10 tr lượt xem . 3 Năm trước</p>
               </div>
              </div>
+             <i class="right__list-icon fas fa-ellipsis-v"></i>
            </div>
          </div>
          <div class="col l-3 m-4 c-12">
@@ -455,6 +468,7 @@
               <p class="list__txt-about">phephim <br> 34 N lượt xem . 1 giờ trước</p>
               </div>
              </div>
+             <i class="right__list-icon fas fa-ellipsis-v"></i>
            </div>
          </div>
          <div class="col l-3 m-4 c-12">
@@ -467,6 +481,7 @@
              <p class="list__txt-about">FURY EDM <br> 31 N lượt xem . 3 ngày trước</p>
              </div>
             </div>
+            <i class="right__list-icon fas fa-ellipsis-v"></i>
           </div>
         </div>
         <div class="col l-3 m-4 c-12">
@@ -479,6 +494,7 @@
             <p class="list__txt-about">Meaning <br> 178 N lượt xem . 5 ngày trước</p>
             </div>
            </div>
+           <i class="right__list-icon fas fa-ellipsis-v"></i>
          </div>
        </div>
        <div class="col l-3 m-4 c-12">
@@ -492,6 +508,7 @@
             <p class="list__txt-about">QuaD Invisible <br> 16 N lượt xem . 3 tuần trước</p>
             </div>
            </div>
+           <i class="right__list-icon fas fa-ellipsis-v"></i>
          </div>
        </div>
        <div class="col l-3 m-4 c-12">
@@ -504,6 +521,7 @@
             <p class="list__txt-about">JW Music <br> 1.2 tr lượt xem . 1 tháng trước</p>
             </div>
            </div>
+           <i class="right__list-icon fas fa-ellipsis-v"></i>
          </div>
        </div>
             </div>
@@ -883,6 +901,15 @@
   content.addEventListener("click",closeAll)
   nofi.addEventListener("click",opennofi)
 </script>
-
+<script>
+  menu = document.querySelector(".menu")
+  iconHovers = document.querySelectorAll(".right__list-icon")
+  function changepx(){
+   for (const iconHover of iconHovers){
+     iconHover.classList.toggle('change__px')
+   }
+  }
+  menu.addEventListener("click",changepx)
+</script>
 </body>
 </html>

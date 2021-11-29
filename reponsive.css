@@ -123,6 +123,15 @@
 {
     display: none;
 }
+.content__right-list i
+{
+   position: absolute;
+    color: #fff;
+    top: 0%;
+    right: 0.5%;
+    background: #000;
+    padding: 5px 15px
+}
 }
 @media (max-width:450px){
   
@@ -325,6 +334,15 @@
 {
     width: 200px;
 }
+.content__right-list i
+{
+   position: absolute;
+    color: #fff;
+    top: 0%;
+    right: -2%;
+    background: #000;
+    padding: 5px 15px
+}
 }
 @media (min-width:1025px) and (max-width:1210px) {
     .content__left 
@@ -450,6 +468,15 @@
 .camera__content 
 {
     width: 200px;
+}
+.content__right-list i
+{
+   position: absolute;
+    color: #fff;
+    top: 0%;
+    right: 0%;
+    background: #000;
+    padding: 5px 15px
 }
 }
 @media (min-width:1025px) and (max-width:1112px) {
