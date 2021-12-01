@@ -68,7 +68,7 @@
 }
 .content__right-video iframe
 {
-  height: 50%;
+  height: 500px;
   width: 100%;
   padding: 10px;
 }
@@ -108,7 +108,7 @@
 }
 .content__right-video iframe
 {
-  height: 30%;
+  height: 300px;
   width: 100%;
   padding: 10px;
 }
@@ -150,7 +150,7 @@
 }
 .content__right-video
 {
-    height: 300px;
+    height: 520px;
 }
 }
 @media (max-width:400px){
@@ -216,7 +216,10 @@
 {
     display: block;
 }
-
+.content__right-video iframe
+{
+    height: 300px;
+}
 }
 @media (min-width:734px) and (max-width:1024px){
     .content__left 
@@ -287,7 +290,7 @@
 }
 .content__right-video iframe
 {
-  height: 40%;
+  height: 400px;
 }
 .content__right-nav li .list 
 {
@@ -327,7 +330,7 @@
 }
 .content__right-video
 {
-    height: 300px;
+    height: 600px;
 }
 .list__txt-heading
 {

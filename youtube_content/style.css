@@ -218,13 +218,14 @@
     list-style: none;
     cursor: pointer;
     margin-left: 10px;
-    text-transform: uppercase;
-    font-weight: 600;
+    text-transform: capitalize;
+    font-weight: 500;
     font-size: 14px;
 }
 .content__right-nav li i 
 {
     margin-right: 7px;
+    font-size: 18px;
 }
 .content__list-emo
 {
