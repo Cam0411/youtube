@@ -216,7 +216,7 @@
     display: inline-block;
     color: #fcfcfc;
     list-style: none;
-   
+    cursor: pointer;
     margin-left: 10px;
     text-transform: uppercase;
     font-weight: 600;
@@ -356,10 +356,57 @@
 .left__list
 {
     display: flex;
+    cursor: pointer;
 }
 .list__txt-about
 {
     color: #a0a0a0;
     font-size: 11px;
     line-height: 20px;
+}
+.content__right-nav .like__2 
+{
+  display: none;
+  cursor: pointer;
+}
+.content__right-nav .like__2.open 
+{
+    display: inline-block;
+}
+.like.close
+{
+    display: none;
+    cursor: pointer;
+}
+.like.open2
+{
+    display: inline-block;
+}
+.content__right-nav .like__2.close2
+{
+    display: none;
+}
+.content__right-nav .dislike__2 
+{
+  display: none;
+  cursor: pointer;
+}
+.content__right-nav .dislike__2.open 
+{
+    display: inline-block;
+}
+.dislike.close
+{
+    display: none;
+    cursor: pointer;
+}
+.dislike.open2
+{
+    display: inline-block;
+    cursor: pointer;
+}
+.content__right-nav .dislike__2.close2
+{
+    display: none;
+    cursor: pointer;
 }

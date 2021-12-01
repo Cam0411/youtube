@@ -63,8 +63,8 @@
               <div class="content__list-emo">
                 <p class="content__emo-about">36.818.522 lượt xem . 30 thg 10, 2021</p>
                 <ul class="content__right-nav">
-                    <li><i class="far fa-thumbs-up"></i> <span>Thích</span> <p class="list">Thích</p></li>
-                    <li><i class="far fa-thumbs-down"></i>  <span>Không thích</span> <p class="list">Không thích</p></li>
+                    <li><i class="like far fa-thumbs-up"></i> <i class="like__2 fas fa-thumbs-up"></i> <span>Thích</span> <p class="list">Thích</p></li>
+                    <li><i class="dislike far fa-thumbs-down"></i> <i class="dislike__2 fas fa-thumbs-down"></i>  <span>Không thích</span> <p class="list">Không thích</p></li>
                     <li><i class="fas fa-share"></i> <span>Chia sẻ</span> <p class="list">chia sẻ </p></li>
                     <li><i class="fas fa-save"></i>  <span>lưu</span> <p class="list">lưu </p></li>
                   <li><i class="fas fa-ellipsis-h"></i></li>
@@ -101,46 +101,46 @@
                          </div>
                          <div class="col l-12 m-4  c-12">
                             <div class="left__list">
-                               <img src="../asset/tranform.png" alt="tranforms" srcset="">
+                               <img src="../asset/kenjumboy.png" alt="tranforms" srcset="">
                                <div class="left__list-all-txt">
-                                   <p class="list__txt-heading"> Chuyện xãy ra với Transformers... </p>
-                                   <p class="list__txt-about">Phê phim <br> 153 N lượt xem . 15 giờ trước</p>
+                                   <p class="list__txt-heading">How to khen đúng cách </p>
+                                   <p class="list__txt-about">Kenjumboy <br> 120 N lượt xem . 16 giờ trước</p>
                                </div>
                             </div>
                         </div>
                         <div class="col l-12 m-4  c-12">
                             <div class="left__list">
-                               <img src="../asset/tranform.png" alt="tranforms" srcset="">
+                               <img src="../asset/anime.png" alt="tranforms" srcset="">
                                <div class="left__list-all-txt">
-                                   <p class="list__txt-heading"> Chuyện xãy ra với Transformers... </p>
-                                   <p class="list__txt-about">Phê phim <br> 153 N lượt xem . 15 giờ trước</p>
+                                   <p class="list__txt-heading"> Vua bánh mì-tập 7 [việt sub] </p>
+                                   <p class="list__txt-about">Muse Việt Nam<br> 18N lượt xem . 3 ngày trước</p>
                                </div>
                             </div>
                         </div>
                         <div class="col l-12 m-4  c-12">
                             <div class="left__list">
-                               <img src="../asset/tranform.png" alt="tranforms" srcset="">
+                               <img src="../asset/ricu2.png" alt="tranforms" srcset="">
                                <div class="left__list-all-txt">
-                                   <p class="list__txt-heading"> Chuyện xãy ra với Transformers... </p>
-                                   <p class="list__txt-about">Phê phim <br> 153 N lượt xem . 15 giờ trước</p>
+                                   <p class="list__txt-heading"> We dropped 100,000 ping... </p>
+                                   <p class="list__txt-about">How Ridiculous <br> 2.5 tr lượt xem . 2 tháng trước</p>
                                </div>
                             </div>
                         </div>
                         <div class="col l-12 m-4  c-12">
                             <div class="left__list">
-                               <img src="../asset/tranform.png" alt="tranforms" srcset="">
+                               <img src="../asset/tho.png" alt="tranforms" srcset="">
                                <div class="left__list-all-txt">
-                                   <p class="list__txt-heading"> Chuyện xãy ra với Transformers... </p>
-                                   <p class="list__txt-about">Phê phim <br> 153 N lượt xem . 15 giờ trước</p>
+                                   <p class="list__txt-heading"> Thỏ bảy Màu vs Vịt - vòng bảng giải đấu...</p>
+                                   <p class="list__txt-about">QuaD Invisible <br> 16 N lượt xem . 3 tuần trước</p>
                                </div>
                             </div>
                         </div>
                         <div class="col l-12 m-4  c-12">
                             <div class="left__list">
-                               <img src="../asset/tranform.png" alt="tranforms" srcset="">
+                               <img src="../asset/reponsive.png" alt="tranforms" srcset="">
                                <div class="left__list-all-txt">
-                                   <p class="list__txt-heading"> Chuyện xãy ra với Transformers... </p>
-                                   <p class="list__txt-about">Phê phim <br> 153 N lượt xem . 15 giờ trước</p>
+                                   <p class="list__txt-heading">Responsive navbar... </p>
+                                   <p class="list__txt-about"> Kevin Powell<br> 80 N lượt xem . 9 ngày trước</p>
                                </div>
                             </div>
                         </div>
@@ -170,6 +170,48 @@
          }
          sub.addEventListener("click",closeSub)
          sub2.addEventListener("click",closeSub2)
+     </script>
+     <script>
+         like = document.querySelector(".like")
+         like2 = document.querySelector(".like__2")
+         dislike = document.querySelector(".dislike")
+        dislike2 = document.querySelector(".dislike__2")
+         function open(){
+             like.classList.add("close")
+             like2.classList.add("open")
+             like.classList.remove("open2")
+             like2.classList.remove("close2")
+            dislike2.classList.remove("open")
+            dislike.classList.add("open2")
+         }
+         function close(){
+             like2.classList.add("close2")
+             like.classList.add("open2")
+             
+         }
+         like.addEventListener("click",open)
+         like2.addEventListener("click",close)
+     </script>
+       <script>
+        dislike = document.querySelector(".dislike")
+        dislike2 = document.querySelector(".dislike__2")
+        like = document.querySelector(".like")
+        like2 = document.querySelector(".like__2")
+         function open(){
+            dislike.classList.add("close")
+            dislike2.classList.add("open")
+            dislike.classList.remove("open2")
+            dislike2.classList.remove("close2")
+            like2.classList.remove("open")
+            like.classList.add("open2")
+         }
+         function close(){
+            dislike2.classList.add("close2")
+            dislike.classList.add("open2")
+ 
+         }
+        dislike.addEventListener("click",open)
+        dislike2.addEventListener("click",close)
      </script>
     </body>
     </html>
