@@ -735,3 +735,17 @@ padding: 20px;
 {
     right:-4px;
 }
+.swiper-slide.changecolor
+{
+    background: #fff;
+    color: #000;
+}
+a 
+{
+    text-decoration: none;
+}
+.content__video
+{
+    background: #202020;
+    height: 1300px;
+}

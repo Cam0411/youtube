@@ -49,7 +49,7 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide swiper-slide-2"><p>Tất cả</p></div>
-              <div class="swiper-slide"><p>Danh sách</p></div>
+              <div class="swiper-slide "><p>Danh sách</p></div>
               <div class="swiper-slide"><p>Âm nhạc</p></div>
               <div class="swiper-slide"><p>Hoạt hình</p></div>
               <div class="swiper-slide"><p>Trực tiếp</p></div>
@@ -311,18 +311,19 @@
           <div class="grid ">
             <div class="row">
               <div class="col l-3 m-4 c-12">
-                <div class="content__right-list">
-                 <img src="asset/hqdefault.jpg" alt="" srcset="">
+                <a href="youtube_content/index.html"> <div  class="content__right-list">
+                 <img   src="asset/hqdefault.jpg" alt="" srcset="">
                  <div class="content__right-list-txt">
-                   <img src="asset/channels4_profile.jpg" alt="" srcset="">
+                <img src="asset/channels4_profile.jpg"  href="youtube_content/index.html" alt="" srcset="">
                    <div class="right__list-all-txt"> 
-                   <p class="list__txt-heading">[Lyris + Vietsub] Toxic Friend </p>
+             <p class="list__txt-heading">[Lyris + Vietsub] Toxic Friend </p>
                    <p class="list__txt-about">Chill music <br> 1 tr lượt xem . 1 tháng trước</p>
                  
                   </div>
                     
                   </div>
                   <i class="right__list-icon fas fa-ellipsis-v"></i>
+                </a>
                 </div>
               </div>
               <div class="col l-3 m-4 c-12">
@@ -864,6 +865,8 @@
   content = document.querySelector(".content__youtube")
   nofiti = document.querySelector(".nofiti__content")
   nofi = document.querySelector(".nofi")
+  header = document.querySelector(".search__form")
+
   function opencamera(){
     camera.classList.toggle("open3")
     appytb.classList.remove("open5")
@@ -879,6 +882,11 @@
     appytb.classList.remove("open5")
     nofiti.classList.remove("open5")
   }
+  function closeAll2(){
+    camera.classList.remove("open3")
+    appytb.classList.remove("open5")
+    nofiti.classList.remove("open5")
+  }
   function opennofi(){
     nofiti.classList.toggle("open5")
     camera.classList.remove("open3")
@@ -888,6 +896,7 @@
   app.addEventListener('click',openapp)
   content.addEventListener("click",closeAll)
   nofi.addEventListener("click",opennofi)
+  header.addEventListener("click",closeAll2)
 </script>
 <script>
   menu = document.querySelector(".menu")
@@ -899,5 +908,6 @@
   }
   menu.addEventListener("click",changepx)
 </script>
+
 </body>
 </html>
