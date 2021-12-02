@@ -411,3 +411,251 @@
     display: none;
     cursor: pointer;
 }
+.modal
+{
+    background: #0004;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+}
+.modal__content
+{
+    width: 17%;
+    background: #202020;
+    height: 100%;
+    position: relative;
+}
+.modal__content .menu 
+{
+    color: #fff;
+    position: absolute;
+    top: 2.8%;
+    font-size: 24px;
+    left: 6.4%;
+}
+.modal__content img 
+{
+    width: 120px;
+    margin-left: 58px;
+    margin-top: 15px;
+}
+.menu__tablet 
+{
+    position: fixed;
+    bottom: 0;
+    height: 75px;
+    background: #202020;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-top: 2px solid #333;
+    display: none;
+}
+.list__icon-nav
+{
+    margin-top: 2px;
+ 
+}
+.list__icon-nav li 
+{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.list__icon-nav li p 
+{
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: 550;
+}
+.camera__content 
+{
+    position: fixed;
+    top: 6%;
+    right: 2%;
+    background: #202020;
+    height: 90px;
+    width: 160px;
+    z-index: 9999999;
+    border:0.2px solid #343434;
+    display: none;
+}
+.camera__content 
+{ 
+padding: 20px;
+}
+.camera__content i 
+{
+    color: #a6a6a6;
+}
+.camera__list 
+{
+   color: #fff;
+   margin-bottom: 20px;
+   margin-left: 5px;
+
+}
+.camera__list p 
+{
+    font-size: 13px;
+}
+.camera__list .camera_list-info 
+{
+    margin-left: 10px;
+}
+.camera__list .wifi 
+{
+    margin-left: -3px;
+}
+.camera__content.open3 
+{
+    display: block;
+}
+.app__content 
+{
+    position: fixed;
+    top: 6%;
+    right: 8%;
+    background: #202020;
+    height: 270px;
+    width: 300px;
+    z-index: 9999999;
+    border:0.2px solid #343434;
+    padding: 10px 20px;
+    color: #fff;
+    display: none;
+}
+.app__content.open5 
+{
+    display: block;
+}
+.app__content img 
+{
+    width: 24px;
+    height: 20px;
+    margin-top: 15px;
+}
+.app__content .camera_app-info
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.app__section
+{
+    border-bottom: 0.5px solid #313131;
+    width: 100%;
+
+}
+.app__section-2
+{
+    border-bottom: none;
+}
+.nofiti__content
+{
+    position: fixed;
+    top: 6%;
+    right: 0%;
+    background: #202020;
+    height: 670px;
+    width: 500px;
+    z-index: 9999999;
+    border:0.2px solid #343434;
+    padding: 10px 0px;
+    color: #fff;
+    overflow: scroll;
+    overflow-x: hidden;
+    display:none ;
+}
+.nofiti__about 
+{
+    padding: 10px 30px;
+     
+}
+.nofi__list-time 
+{
+    color: #a0a0a0;
+    font-size: 14px;
+}
+.notifi__setting 
+{
+    text-align: right;
+    padding: 10px 30px;
+    margin-bottom: 8px;
+}
+.nofiti__heading
+{
+    border-bottom: 2px solid #343434;
+}
+.nofiti__list-content 
+{
+    margin-top: 20px;
+}
+.nofiti__list-content .nofiti__logo
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.nofiti__list-content .nofiti__img
+{
+    width: 86px;
+    height: 64px;
+
+}
+.nofi__list-about 
+{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.nofiti__content.open5 
+{
+    display: block;
+}
+.right__list-icon 
+{
+   position: absolute;
+    color: #fff;
+    top: 0%;
+    right: 10px;
+    background: #000;
+    padding: 5px 15px;
+    display: none;
+    transition: 0.4s;
+  
+}
+.content__right-list:hover .right__list-icon 
+{
+    display: block;
+}
+.right__list-icon.change__px 
+{
+    right:-4px;
+}
+.swiper-slide.changecolor
+{
+    background: #fff;
+    color: #000;
+}
+a 
+{
+    text-decoration: none;
+}
+.content__video
+{
+    background: #202020;
+    height: 1800px;
+}
