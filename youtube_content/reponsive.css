@@ -377,6 +377,35 @@
 {
     height: 3000px;
 }
+.content__sub .sub__about.close
+{
+    display: none;
+}
+
+.content__sub  .sub__about-2
+{
+    background: #303030;
+    display: none;
+}
+.content__sub  .sub__about-2.open
+{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__sub  .sub__about.open2
+{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__sub  .sub__about-2.close2
+{
+    display: none;
+
+}
 }
 @media (min-width:1025px) and (max-width:1210px) {
     .content__left 

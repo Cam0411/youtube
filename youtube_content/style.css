@@ -292,6 +292,7 @@
 {
     background: #303030;
     display: none;
+ 
 }
 .content__sub  .sub__about-2.open
 {
@@ -299,6 +300,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 99999;
 }
 .content__sub  .sub__about.open2
 {
@@ -306,6 +308,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 99999;
 }
 .content__sub  .sub__about-2.close2
 {
