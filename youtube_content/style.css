@@ -590,6 +590,7 @@ padding: 20px;
 {
     color: #a0a0a0;
     font-size: 14px;
+    margin-top: -5px;
 }
 .notifi__setting 
 {
@@ -661,4 +662,77 @@ a
 {
     background: #202020;
     height: 1800px;
+}
+.modal 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    display: none;
+
+}
+.modal__menu 
+{
+    width:264px;
+    height: 100%;
+    background: #202020;
+    position: relative;
+    display: flex;
+    animation: 0.4s fadeIn ease-in-out;
+}
+.modal__open .menu__open
+{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 20px;
+}
+.modal__open img 
+{
+    width: 130px;
+    position: absolute;
+    top:15px;
+}
+.modal__list
+{
+    margin-top: 80px;
+    margin-left: -40px;
+}
+.modal__list-item i
+{
+    color: #fff;
+    margin-left: 6px;
+    margin-bottom: 30px;
+
+}
+ a
+{
+    color: #fff;
+}
+.content__list .sub__list 
+{
+    margin-left: 5px;
+}
+.modal.open 
+{
+    display: block;
+}
+.sub__list 
+{
+    color: #fff;
+}
+.modal.animation
+{
+   animation: 0.4s fadeOut ease-in-out;
+}
+@keyframes fadeIn{
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }

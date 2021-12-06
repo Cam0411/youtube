@@ -171,6 +171,14 @@
     right: 7%;
     width: 170px;
 }
+.modal
+{
+    display: none;
+}
+.modal__menu
+{
+        display: none;
+}
 }
 @media (max-width:400px){
   
@@ -407,6 +415,18 @@
     display: none;
 
 }
+.modal
+{
+    display: none;
+}
+.modal
+{
+    display: none;
+}
+.modal__menu
+{
+        display: none;
+}
 }
 @media (min-width:1025px) and (max-width:1210px) {
     .content__left 
@@ -524,6 +544,14 @@
     position: fixed;
     top: 6%;
     right: 4%;
+}
+.modal
+{
+    display: none;
+}
+.modal__menu
+{
+        display: none;
 }
 }
     
